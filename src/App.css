@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.heading{
+  margin-left: 200px;
+  margin-top: 2rem;
+  font-size: 35px;
+  backdrop-filter: blur(20px);
+  background: transparent;
+  color: rgb(8, 23, 63);
+
+
+}
+.text textarea{
+  height: 220px;
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 1rem;
+  border-radius: 10px;
+  text-size-adjust: 200px;
+  box-shadow: 2px 2px 5px rgb(37, 36, 36);
+  background: none;
+  backdrop-filter: blur(10px);
+  line-height: 1.5;
+  font-size: 1.4rem;
+  padding-left: 1%;
+}
+#text {
+  backdrop-filter: blur(20px);
+  background: none;
+  background: transparent;
+} 
+textarea::placeholder{
+  font-size: 30px;
+}
+.btn{
+  margin-left: 380px;
+}
+button{
+  height:55px;
+  width: 130px;
+  margin-left: 15px;
+  margin-top: 1rem;
+  font-size: 25px;
+  background-color: rgb(26, 52, 100);
+  /* color:rgb(13, 13, 252); */
+  color: rgb(255, 255, 2);
+  text-shadow: 2px 2px 10px rgb(153, 146, 146);
+  border-radius: 14px;
+  border: none;
+  box-shadow: 2px 2px 6px black;
+  margin-bottom: 1rem;
+  /* text-shadow: 3px 3px 5px rgb(34, 34, 34); */
+  transition: all ease 0.2s;
+}
+button:hover{
+    transform: scale(1.05);
+    /* border-radius: 0%; */
+     background-color: rgb(43, 70, 121);
+     color: aliceblue;
+}
+.summery{
+  /* margin-left: 200px; */
+  background: transparent;
+  color: rgb(1, 45, 126);
+  font-size: 30px;
+}
+ p{
+  color: black;
+  margin-left: 1%;
+}
+.preview{
+  color: rgb(1, 45, 126);
+  /* margin-left: 200px; */
+  margin-top: 1rem;
+  font-size: 30px;
+
+}
+.pre{
+  margin-left: 1%;
+  color: black;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.output{
+  /* border:2px solid black; */
+  border: none;
+  border-left: 2px solid gray;
+  margin-left: 15%;
+  padding: 1% 1% 0.1% 2%;
+  width: 65%;
+  box-shadow: 2px 3px 5px gray;
+  background-color: rgb(245, 244, 220);
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  margin-top: 3%;
+  text-align: center;
+  padding: 1.5% 0% 1.5% 0%;
+  background-color: rgb(0, 0, 14);
+  /* color:white; */
+
+}
+.footer p{
+  color: white;
+  font-size: larger;
+  font-weight: 500;
+
+}
